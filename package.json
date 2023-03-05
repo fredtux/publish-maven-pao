@@ -1,0 +1,30 @@
+{
+  "name": "publish-maven-pao",
+  "version": "1.0.0",
+  "description": "Does everything needed to checkout, setup Java 17, build and publish your maven project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js -o dist --source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredtux/publish-maven-pao.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions"
+  ],
+  "author": "Florin Dinu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fredtux/publish-maven-pao/issues"
+  },
+  "homepage": "https://github.com/fredtux/publish-maven-pao#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.1"
+  }
+}
