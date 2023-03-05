@@ -1,0 +1,16 @@
+name: 'PAO project action - University of Bucharest - Faculty of Mathematics and Informatics - Project 2023'
+description: 'Does everything needed to checkout, setup Java 17, build and publish your maven project'
+inputs:
+  interval:
+    description: "Project name"
+    required: true
+  pom_path:
+    description: 'The path for the pom.xml file'
+    required: false
+    default: './'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+branding:
+  color: 'purple'
+  icon: 'book-open'
