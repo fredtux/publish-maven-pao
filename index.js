@@ -1,5 +1,5 @@
 import * as core from '@actions/core'
-import * as coreCommand from '@actions/core/lib/command'
+// import * as coreCommand from '@actions/core/lib/command'
 // import * as path from 'path'
 
 

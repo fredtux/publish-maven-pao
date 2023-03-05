@@ -2861,10 +2861,8 @@ var __webpack_exports__ = {};
 __nccwpck_require__.r(__webpack_exports__);
 /* harmony import */ var _actions_core__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(186);
 /* harmony import */ var _actions_core__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nccwpck_require__.n(_actions_core__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _actions_core_lib_command__WEBPACK_IMPORTED_MODULE_1__ = __nccwpck_require__(351);
-/* harmony import */ var _actions_core_lib_command__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__nccwpck_require__.n(_actions_core_lib_command__WEBPACK_IMPORTED_MODULE_1__);
 
-
+// import * as coreCommand from '@actions/core/lib/command'
 // import * as path from 'path'
 
 
