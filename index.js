@@ -6,7 +6,7 @@ const core = require("@actions/core");
 const projectName = core.getInput("project_name", { required: true });
 const pomPath = core.getInput("pom_path", { default: "." });
 
-
+console.log("11111111111");
 async function run() {
     try {
         await checkout();
